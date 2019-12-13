@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block content %}
+    <h4><strong>Search for a book</strong></h4>
+    <form action="/search" method="GET">
+        <div class="form-group">
+            <input type="text" class="form-control" name="book" autofocus aria-describedby="bookHelp" placeholder="ISBN, Title or Author">
+        </div>
+        <button class="btn btn-primary btn-lg" type="submit">Search</button>
+    </form>
+{% endblock %}

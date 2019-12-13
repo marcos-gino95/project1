@@ -1,0 +1,65 @@
+/*Fonts*/
+@font-face {
+    font-family: "Droid serif";
+    src: url(../fonts/DroidSerif-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Merriweather-Black";
+    src: url(../fonts/Merriweather-Black.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Quicksand-Regular";
+    src: url(../fonts/Quicksand-Regular.otf) format("opentype");
+}
+
+main .form-control
+{
+    display: inline-block;
+    width: auto;
+}
+
+.error{
+    color: red;
+}
+.card-body {
+    text-align: start;
+}
+
+.results-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    font-family: "Quicksand-Regular";
+}
+
+.book-container {
+    display: flex;
+    justify-content: center;
+}
+
+.form-border {
+    border-color: rgb(26, 25, 25);
+    border-style: solid;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+main
+{
+    overflow-x: auto;
+    text-align: center;
+    font-family: "Quicksand-Regular";
+}
+
+main img
+{
+    max-width: 100%;
+}
+
+.navbar-dark .navbar-collapse .navbar-nav .nav-item .nav-link{
+    color: rgb(255, 255, 255);
+    font-family: "Quicksand-Regular";
+    }
